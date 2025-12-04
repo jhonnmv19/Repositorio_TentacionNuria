@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tucumana Continuación - Tentación de Nuria">
+    <title>Tucumana Continuación - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo4.html" class="back-button">
+                ← Volver al módulo 4
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/tucumana.jpg" 
+                     alt="Tucumana Continuación" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 4</span>
+                        <span class="receta-meta-item">⏱️ 1 h</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Tucumana Continuación</h1>
+                    <p class="receta-descripcion-large">
+                        Deliciosas tucumanas rellenas de pollo, carne y verduras, acompañadas de huevo de codorniz y salsas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes del Relleno -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes del Relleno</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>Pechuga de pollo grande cocida</span></li>
+                    <li><span class="check-icon">✓</span> <span>500 gr de carne molida</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 taza de ají en vaina molido (amarillo y rojo)</span></li>
+                    <li><span class="check-icon">✓</span> <span>5 dientes de ajo fresco</span></li>
+                    <li><span class="check-icon">✓</span> <span>8 papas holandesas cocidas</span></li>
+                    <li><span class="check-icon">✓</span> <span>5 cebollas grandes frescas</span></li>
+                    <li><span class="check-icon">✓</span> <span>4 zanahorias medianas cocidas</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 bs de cilantro, perejil y orégano</span></li>
+                    <li><span class="check-icon">✓</span> <span>50 ml de salsa de soya</span></li>
+                    <li><span class="check-icon">✓</span> <span>Sal y pimienta c/n</span></li>
+                    <li><span class="check-icon">✓</span> <span>Arvejas cocidas</span></li>
+                    <li><span class="check-icon">✓</span> <span>20 huevos de codorniz cocidos y pelados</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 sobre de Doña Gusta sabor carne</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 sobre de Doña Gusta sabor pollo</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Sofreír el ajo picado en brunoise en un sartén. Añadir la cebolla en brunoise y dejar cristalizar.</p></li>
+                    <li><span class="step-number"></span><p>Agregar el pollo cocido o la carne. Verter el ají molido en líquido.</p></li>
+                    <li><span class="step-number"></span><p>Añadir las verduras cocidas, sazonar con sal y pimienta, y agregar un sobre de Doña Gusta (pollo o carne).</p></li>
+                    <li><span class="step-number"></span><p>Uslerear la masa, ni muy delgada ni muy gruesa. Colocar el relleno y añadir el huevo de codorniz cocido.</p></li>
+                    <li><span class="step-number"></span><p>Repulgar las tucumanas y sofreír/hornear en aceite a 180 °C. Servir acompañadas de salsas.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo4.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

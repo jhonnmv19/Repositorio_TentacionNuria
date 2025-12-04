@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Torta Helada de Limón - Tentación de Nuria">
+    <title>Torta Helada de Limón - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo5.html" class="back-button">
+                ← Volver al módulo 5
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/torta-helada-limon.jpg" 
+                     alt="Torta Helada de Limón" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 5</span>
+                        <span class="receta-meta-item">⏱️ 1 día</span>
+                        <span class="receta-meta-item">🍋 Postre frío</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Torta Helada de Limón</h1>
+                    <p class="receta-descripcion-large">
+                        Una refrescante torta helada ideal para días calurosos, con capas de galleta y crema de limón suave y ligera.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>360 g de galletas María</span></li>
+                    <li><span class="check-icon">✓</span> <span>180 g de mantequilla sin sal</span></li>
+                </ul>
+            </div>
+
+            <!-- Relleno -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Relleno</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>600 g de queso crema</span></li>
+                    <li><span class="check-icon">✓</span> <span>160 g de azúcar impalpable</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 lata de leche condensada</span></li>
+                    <li><span class="check-icon">✓</span> <span>50 cc de jugo de limón</span></li>
+                    <li><span class="check-icon">✓</span> <span>10 g de gelatina neutra</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cda de ralladura de limón</span></li>
+                    <li><span class="check-icon">✓</span> <span>540 cc de crema de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 paquete de galletas María</span></li>
+                </ul>
+            </div>
+
+            <!-- Decoración -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>Crema chantilly</span></li>
+                    <li><span class="check-icon">✓</span> <span>Rodajas de limón</span></li>
+                    <li><span class="check-icon">✓</span> <span>Acetato y papel mantequilla</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Realizar el mise en place.</p></li>
+                    <li><span class="step-number"></span><p>Triturar las galletas y mezclar con mantequilla fundida. Colocar papel mantequilla y acetato en el molde y presionar la mezcla. Refrigerar.</p></li>
+                    <li><span class="step-number"></span><p>Hidratar la gelatina con el jugo de limón y llevar a baño maría.</p></li>
+                    <li><span class="step-number"></span><p>Batir la crema de leche a punto medio.</p></li>
+                    <li><span class="step-number"></span><p>Mezclar leche condensada con queso crema y batir muy bien.</p></li>
+                    <li><span class="step-number"></span><p>Unir ambas mezclas, agregar azúcar y ralladura. Añadir la gelatina y batir.</p></li>
+                    <li><span class="step-number"></span><p>Sacar la base del refrigerador y agregar una capa de crema y otra de galletas remojadas en leche. Repetir.</p></li>
+                    <li><span class="step-number"></span><p>Tapar con film y congelar por una noche.</p></li>
+                </ol>
+            </div>
+
+            <!-- Decoración final -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración Final</h2>
+
+                <ul class="decoracion-lista">
+                    <li><span class="star-icon">★</span> <span>Desmoldar y retirar el acetato.</span></li>
+                    <li><span class="star-icon">★</span> <span>Batir crema y hacer piquitos en la parte superior.</span></li>
+                    <li><span class="star-icon">★</span> <span>Agregar rodajitas y ralladura de limón.</span></li>
+                </ul>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo5.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

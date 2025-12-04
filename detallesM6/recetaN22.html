@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Torta Boda - Tentación de Nuria">
+    <title>Torta Boda - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo6.html" class="back-button">
+                ← Volver al módulo 6
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/torta-boda-relleno.jpg" 
+                     alt="Torta Boda" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 6</span>
+                        <span class="receta-meta-item">⏱️ 90 min</span>
+                        <span class="receta-meta-item">💍 Torta especial boda</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Torta Boda</h1>
+                    <p class="receta-descripcion-large">
+                        Una torta elegante y sofisticada, con capas de crema, durazno, manjar, 
+                        chocolate y almendras, decorada con flores, perlas comestibles y purpurina dorada.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes Relleno -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes del Relleno</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>1 litro de crema de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de azúcar</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 lata de durazno al jugo</span></li>
+                    <li><span class="check-icon">✓</span> <span>Manjar de dulce de leche Nestlé</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 ½ taza de chocolate rallado</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de almendras trituradas</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de azúcar adicional</span></li>
+                </ul>
+            </div>
+
+            <!-- Ingredientes Decoración -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes para Decoración</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>1 litro de crema Dagusto</span></li>
+                    <li><span class="check-icon">✓</span> <span>Purpurina comestible dorada 15 g</span></li>
+                    <li><span class="check-icon">✓</span> <span>Flores comestibles</span></li>
+                    <li><span class="check-icon">✓</span> <span>Perlas comestibles</span></li>
+                    <li><span class="check-icon">✓</span> <span>Bases de torta (una grande y una pequeña)</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación del Relleno -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación del Relleno</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span>
+                        <p>Batir la crema de leche con el azúcar hasta que esté a punto medio.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Triturar las almendras y picar los duraznos en cubos.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>En cada capa, colocar manjar, luego almendras y chocolate rallado, después crema batida y duraznos.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Decoración -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span>
+                        <p>Batir la crema Dagusto, aplicar la primera capa atrapa migas y refrigerar por 10 minutos.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Alisar la torta con crema y decorar con flores, perlas y purpurina dorada.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo6.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

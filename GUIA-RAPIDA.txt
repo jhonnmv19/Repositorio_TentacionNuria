@@ -1,0 +1,351 @@
+═══════════════════════════════════════════════════════════════
+    📘 GUÍA RÁPIDA - REPOSITORIO TENTACIÓN DE NURIA
+═══════════════════════════════════════════════════════════════
+
+✅ ARCHIVOS CREADOS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 html-version/
+  ├── 📄 index.html (Página principal)
+  ├── 📄 README.md (Documentación completa)
+  ├── 📄 PLANTILLA-modulo.html (Plantilla para crear módulos)
+  ├── 📄 PLANTILLA-receta.html (Plantilla para crear recetas)
+  │
+  ├── 📁 estilos/
+  │   └── 📄 estilo.css (Todos los estilos)
+  │
+  ├── 📁 js/
+  │   └── 📄 script.js (Interactividad)
+  │
+  ├── 📁 paginas/
+  │   ├── 📄 menu.html (6 módulos)
+  │   ├── 📄 contacto.html (Con WhatsApp)
+  │   └── 📄 sobre-nosotros.html (Historia y valores)
+  │
+  ├── 📁 modulos/
+  │   ├── 📄 modulo1.html (Fundamentos Repostería)
+  │   ├── 📄 modulo2.html (Tartas y Pasteles)
+  │   ├── 📄 modulo3.html (Panadería Artesanal)
+  │   ├── 📄 modulo4.html (Alta Pastelería)
+  │   ├── 📄 modulo5.html (Repostería Salada)
+  │   └── 📄 modulo6.html (Postres de Cuchara)
+  │
+  ├── 📁 detallesM1/ (Recetas Módulo 1)
+  │   ├── 📄 receta1.html (Tarta de Chocolate)
+  │   └── 📄 receta2.html (Galletas de Mantequilla)
+  │
+  ├── 📁 detallesM2/ (Recetas Módulo 2)
+  ├── 📁 detallesM3/ (Recetas Módulo 3)
+  ├── 📁 detallesM4/ (Recetas Módulo 4)
+  ├── 📁 detallesM5/ (Recetas Módulo 5)
+  └── 📁 detallesM6/ (Recetas Módulo 6)
+
+
+═══════════════════════════════════════════════════════════════
+    🚀 CÓMO EMPEZAR
+═══════════════════════════════════════════════════════════════
+
+1️⃣ ABRIR EL PROYECTO:
+   • Haz doble clic en "index.html"
+   • Se abrirá en tu navegador
+   • Ya está funcionando! ✨
+
+2️⃣ NAVEGAR:
+   • Haz clic en "Módulos" para ver los 6 módulos
+   • Entra a cualquier módulo
+   • Haz clic en "Ver más" en cualquier receta
+
+3️⃣ VERIFICAR:
+   • Todas las páginas están conectadas
+   • El menú móvil funciona (☰)
+   • Los botones funcionan
+   • Las imágenes se cargan de Unsplash
+
+
+═══════════════════════════════════════════════════════════════
+    ✏️ CÓMO AGREGAR TUS RECETAS (FÁCIL)
+═══════════════════════════════════════════════════════════════
+
+PASO A PASO PARA AGREGAR 1 RECETA:
+
+1. Elige el módulo (ejemplo: Módulo 1)
+
+2. Copia "PLANTILLA-receta.html"
+
+3. Pégala en la carpeta "detallesM1/"
+
+4. Renómbrala: "receta3.html", "receta4.html", etc.
+
+5. Abre con un editor de texto (Notepad, VS Code, etc.)
+
+6. Busca y reemplaza (Ctrl+F):
+   
+   BUSCAR: "moduloX.html"
+   REEMPLAZAR: "modulo1.html"
+   
+   BUSCAR: "Módulo X"
+   REEMPLAZAR: "Módulo 1"
+   
+   BUSCAR: "NOMBRE RECETA"
+   REEMPLAZAR: "Tu receta"
+   
+   BUSCAR: "PALABRAS_CLAVE"
+   REEMPLAZAR: "chocolate,cake" (o lo que sea)
+
+7. Completa la receta:
+   • Ingredientes (copia y pega las líneas con ✓)
+   • Pasos (copia y pega las líneas numeradas)
+   • Decoración (opcional)
+
+8. Guarda el archivo
+
+9. Abre "modulos/modulo1.html"
+
+10. Copia una tarjeta de receta existente
+
+11. Pégala y cambia:
+    • href="../detallesM1/receta3.html"
+    • Nombre de la receta
+    • Descripción
+    • Imagen
+
+12. Guarda
+
+13. ¡Listo! Prueba en el navegador
+
+
+═══════════════════════════════════════════════════════════════
+    📸 CÓMO USAR TUS PROPIAS IMÁGENES
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 1 - Usar imágenes locales:
+
+1. Crea carpeta "imagenes/" si no existe
+
+2. Guarda tus fotos ahí:
+   • tarta-chocolate.jpg
+   • galletas-mantequilla.jpg
+   • etc.
+
+3. En el HTML, cambia:
+   
+   DE:
+   <img src="https://source.unsplash.com/400x300/?chocolate,cake">
+   
+   A:
+   <img src="../imagenes/tarta-chocolate.jpg">
+
+OPCIÓN 2 - Seguir usando Unsplash:
+
+• Solo cambia las palabras clave:
+  ?chocolate,cake
+  ?vanilla,cupcake
+  ?lemon,tart
+
+
+═══════════════════════════════════════════════════════════════
+    📞 CONFIGURAR WHATSAPP
+═══════════════════════════════════════════════════════════════
+
+1. Abre "paginas/contacto.html"
+
+2. Busca: "34XXXXXXXXX"
+
+3. Reemplaza con tu número:
+   • Incluye código de país
+   • Sin espacios, sin +
+   • Ejemplo España: 34612345678
+   • Ejemplo México: 525512345678
+   • Ejemplo Argentina: 5491112345678
+
+4. Guarda
+
+5. Prueba haciendo clic en el botón
+
+
+═══════════════════════════════════════════════════════════════
+    🎨 CAMBIAR COLORES
+═══════════════════════════════════════════════════════════════
+
+1. Abre "estilos/estilo.css"
+
+2. Al inicio verás:
+
+:root {
+  --color-header: #bc6071;
+  --color-button: #e49dab;
+  --color-section: #cca0a8;
+  --color-hover: #a4202e;
+  --color-bg: #fefae2;
+}
+
+3. Cambia los códigos de color
+
+4. Guarda y recarga la página
+
+
+═══════════════════════════════════════════════════════════════
+    📋 COPIAR Y PEGAR RÁPIDO
+═══════════════════════════════════════════════════════════════
+
+PARA INGREDIENTES:
+<li><span class="check-icon">✓</span><span>Ingrediente aquí</span></li>
+
+PARA PASOS:
+<li><span class="step-number"></span><p>Paso aquí</p></li>
+
+PARA DECORACIÓN:
+<li><span class="star-icon">★</span><span>Decoración aquí</span></li>
+
+PARA TARJETA DE RECETA EN MÓDULO:
+<a href="../detallesMX/recetaY.html" class="receta-card">
+    <div class="card">
+        <img src="URL_IMAGEN" alt="Nombre" class="receta-imagen">
+        <div class="receta-contenido">
+            <h3 class="receta-nombre">Nombre Receta</h3>
+            <p class="receta-descripcion">Descripción</p>
+            <span class="btn btn-secondary">Ver más</span>
+        </div>
+    </div>
+</a>
+
+
+═══════════════════════════════════════════════════════════════
+    🌐 PUBLICAR EN INTERNET (GRATIS)
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 1 - GitHub Pages (Recomendado):
+1. Crea cuenta en github.com
+2. Crea repositorio nuevo
+3. Sube todos los archivos
+4. Ve a Settings > Pages
+5. Activa GitHub Pages
+6. ¡Tu sitio estará en: usuario.github.io/repositorio!
+
+OPCIÓN 2 - Netlify:
+1. Ve a netlify.com
+2. Arrastra la carpeta del proyecto
+3. ¡Listo! Te da una URL
+
+OPCIÓN 3 - Vercel:
+1. Ve a vercel.com
+2. Importa desde GitHub o sube archivos
+3. ¡Listo!
+
+
+═══════════════════════════════════════════════════════════════
+    ❓ PREGUNTAS FRECUENTES
+═══════════════════════════════════════════════════════════════
+
+Q: ¿Funciona sin internet?
+A: Sí, todo funciona local. Solo las imágenes de Unsplash 
+   necesitan internet. Usa imágenes locales si quieres 
+   que funcione 100% offline.
+
+Q: ¿Cuántas recetas puedo agregar?
+A: ¡Ilimitadas! Solo copia las plantillas.
+
+Q: ¿Puedo cambiar el diseño?
+A: Sí, edita estilo.css
+
+Q: ¿Funciona en celular?
+A: Sí, es 100% responsive
+
+Q: ¿Necesito saber programar?
+A: No, solo copiar y pegar
+
+Q: ¿Cómo edito los archivos?
+A: Con cualquier editor de texto:
+   • Notepad (Windows)
+   • TextEdit (Mac)
+   • VS Code (recomendado)
+   • Sublime Text
+   • Notepad++
+
+
+═══════════════════════════════════════════════════════════════
+    🎯 PLAN RECOMENDADO
+═══════════════════════════════════════════════════════════════
+
+SEMANA 1:
+□ Familiarízate con la estructura
+□ Agrega 5 recetas al Módulo 1
+□ Cambia el número de WhatsApp
+□ Personaliza "Sobre Nosotros"
+
+SEMANA 2:
+□ Completa todas las recetas del Módulo 1 (35)
+□ Toma fotos de tus recetas
+□ Reemplaza imágenes de Unsplash
+
+SEMANA 3-8:
+□ Completa Módulos 2, 3, 4, 5, 6
+□ Una módulo por semana
+
+SEMANA 9:
+□ Revisa todo
+□ Publica en internet
+□ Comparte con familia
+
+
+═══════════════════════════════════════════════════════════════
+    💡 CONSEJOS PRO
+═══════════════════════════════════════════════════════════════
+
+1. Usa nombres consistentes para archivos
+2. Toma fotos con buena luz para tus recetas
+3. Optimiza imágenes (max 500KB cada una)
+4. Prueba en celular regularmente
+5. Haz backup de tus archivos
+6. Usa Control+F para buscar y reemplazar rápido
+7. Abre varios archivos a la vez para copiar y pegar
+8. Guarda frecuentemente
+9. Prueba cada receta nueva en el navegador
+
+
+═══════════════════════════════════════════════════════════════
+    📚 ARCHIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+📄 README.md 
+   → Documentación completa y detallada
+
+📄 PLANTILLA-modulo.html
+   → Úsala si necesitas crear módulos adicionales
+
+📄 PLANTILLA-receta.html
+   → Úsala para cada receta nueva
+
+📄 GUIA-RAPIDA.txt
+   → Este archivo (referencia rápida)
+
+
+═══════════════════════════════════════════════════════════════
+    ✅ CHECKLIST PARA CADA RECETA NUEVA
+═══════════════════════════════════════════════════════════════
+
+□ Copié la plantilla de receta
+□ La guardé en la carpeta correcta (detallesMX/)
+□ La nombré correctamente (recetaX.html)
+□ Cambié el título del módulo
+□ Cambié el nombre de la receta
+□ Agregué todos los ingredientes
+□ Agregué todos los pasos
+□ Agregué decoración (si aplica)
+□ Cambié la imagen
+□ Actualicé el botón "Volver al módulo"
+□ Agregué la tarjeta en el archivo del módulo
+□ Probé que funcione en el navegador
+□ Los enlaces funcionan correctamente
+
+
+═══════════════════════════════════════════════════════════════
+
+¡LISTO! Ya tienes todo para crear tu repositorio completo.
+
+Si tienes dudas, lee el README.md que tiene ejemplos 
+más detallados.
+
+¡Mucho éxito con tu Repositorio Tentación de Nuria! 🎂❤️
+
+═══════════════════════════════════════════════════════════════

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cocadas - Tentación de Nuria">
+    <title>Cocadas - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo4.html" class="back-button">
+                ← Volver al módulo 4
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/cocadas.jpg" 
+                     alt="Cocadas" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 4</span>
+                        <span class="receta-meta-item">⏱️ 20 min</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Cocadas</h1>
+                    <p class="receta-descripcion-large">
+                        Dulces cocadas preparadas con coco rallado, leche condensada y esencia de coco, horneadas hasta dorar.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>5 cucharas de mantequilla pil</span></li>
+                    <li><span class="check-icon">✓</span> <span>2 huevos</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de leche condensada</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de azúcar impalpable</span></li>
+                    <li><span class="check-icon">✓</span> <span>5 cucharas de maicena</span></li>
+                    <li><span class="check-icon">✓</span> <span>5 tazas de coco rallado</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cucharilla de esencia de coco</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Preparar el mise en place.</p></li>
+                    <li><span class="step-number"></span><p>En un sartén, retostar la leche condensada y colocar en un bol. Añadir coco, maicena, azúcar impalpable, huevo, esencia de coco y mantequilla pil. Mezclar y compactar hasta obtener una mezcla manejable para formar bolitas.</p></li>
+                    <li><span class="step-number"></span><p>Colocar las bolitas en una placa enmantecada y llevar a hornear a 180 ºC por 15-20 minutos hasta dorar.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo4.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

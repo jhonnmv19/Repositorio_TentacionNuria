@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bombones Rellenos de Café - Tentación de Nuria">
+    <title>Bombones Rellenos de Café - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo3.html" class="back-button">
+                ← Volver al módulo 3
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/bombones-cafe.jpg" 
+                     alt="Bombones Rellenos de Café" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 3</span>
+                        <span class="receta-meta-item">⏱️ 35 min</span>
+                        <span class="receta-meta-item">👥 Varias unidades</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Bombones Rellenos de Café</h1>
+                    <p class="receta-descripcion-large">
+                        Delicados bombones de chocolate semi amargo rellenos con una ganache de café aromatizada con esencia y licor.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>250 gr de chocolate semi amargo</span></li>
+                    <li><span class="check-icon">✓</span> <span>Pirotines</span></li>
+                </ul>
+
+                <h3 class="subtitulo">Relleno</h3>
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>50 gr de chocolate blanco</span></li>
+                    <li><span class="check-icon">✓</span> <span>25 ml de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ cucharilla de esencia de café</span></li>
+                    <li><span class="check-icon">✓</span> <span>¼ cucharilla de café coñac</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cucharilla de café instantáneo</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <h3 class="subtitulo">Relleno</h3>
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Realizar el mise en place.</p></li>
+
+                    <li><span class="step-number"></span>
+                        <p>Calentar la leche en una olla junto con el café instantáneo hasta que hierva suavemente.</p>
+                    </li>
+
+                    <li><span class="step-number"></span>
+                        <p>Picar el chocolate blanco y agregarlo a la mezcla caliente. Batir hasta integrar completamente y añadir el licor.</p>
+                    </li>
+
+                    <li><span class="step-number"></span><p>Vaciar el relleno en una manga pastelera.</p></li>
+                </ol>
+
+                <h3 class="subtitulo">Armado del Bombón</h3>
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span>
+                        <p>Derretir el chocolate semi amargo a baño maría y dejar enfriar hasta que esté tibio.</p>
+                    </li>
+
+                    <li><span class="step-number"></span>
+                        <p>Llenar completamente el molde con chocolate, girar para cubrir las paredes y escurrir el exceso. Refrigerar.</p>
+                    </li>
+
+                    <li><span class="step-number"></span>
+                        <p>Añadir el relleno de café y cubrir con una capa final de chocolate. Golpear suavemente el molde y refrigerar nuevamente.</p>
+                    </li>
+
+                    <li><span class="step-number"></span><p>Desmoldar con cuidado.</p></li>
+                    <li><span class="step-number"></span><p>Emplatar y servir.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo3.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

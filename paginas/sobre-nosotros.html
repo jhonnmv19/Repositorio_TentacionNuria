@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sobre Nosotros - Tentación de Nuria">
+    <title>Sobre Nosotros - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="menu.html">Módulos</a>
+                <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="menu.html">Módulos</a>
+            <a href="sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <div class="page-header">
+            <h1 class="page-title">Sobre Nosotros</h1>
+            <p class="page-subtitle">
+                La historia detrás de Tentación de Nuria
+            </p>
+        </div>
+
+        <!-- Historia -->
+        <div class="receta-seccion">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <span style="font-size: 2rem;">❤️</span>
+                <h2 class="seccion-titulo" style="margin-bottom: 0;">Nuestra Historia</h2>
+            </div>
+            <div style="color: var(--color-text-light); line-height: 1.8;">
+                <p style="margin-bottom: 1rem;">
+                    El Repositorio Tentación de Nuria nació de la pasión por la repostería y la necesidad 
+                    de organizar y preservar todas las recetas desarrolladas durante los años de formación 
+                    culinaria profesional.
+                </p>
+                <p style="margin-bottom: 1rem;">
+                    A lo largo de 6 módulos intensivos, cada receta ha sido probada, perfeccionada y 
+                    documentada meticulosamente, creando un archivo digital completo que sirve tanto 
+                    como referencia personal como herramienta de aprendizaje continuo.
+                </p>
+                <p>
+                    Este proyecto representa no solo un conjunto de recetas, sino el testimonio de un 
+                    viaje culinario lleno de aprendizaje, dedicación y amor por el arte de la pastelería 
+                    y panadería.
+                </p>
+            </div>
+        </div>
+
+        <!-- Visión -->
+        <div class="receta-seccion">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <span style="font-size: 2rem;">🎯</span>
+                <h2 class="seccion-titulo" style="margin-bottom: 0;">Nuestra Visión</h2>
+            </div>
+            <div style="color: var(--color-text-light); line-height: 1.8;">
+                <p style="margin-bottom: 1rem;">
+                    Aspiramos a ser un repositorio completo y accesible que facilite el trabajo diario 
+                    en la cocina, permitiendo consultar recetas de forma rápida y eficiente.
+                </p>
+                <p>
+                    Queremos que este repositorio sirva como inspiración y guía, no solo para uso personal, 
+                    sino también como recurso para compartir conocimientos con la familia y amigos que 
+                    compartan la misma pasión por la cocina.
+                </p>
+            </div>
+        </div>
+
+        <!-- Valores -->
+        <div class="receta-seccion">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <span style="font-size: 2rem;">✨</span>
+                <h2 class="seccion-titulo" style="margin-bottom: 0;">Nuestros Valores</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div>
+                    <h3 style="font-size: 1.25rem; color: var(--color-header); margin-bottom: 0.75rem;">Precisión</h3>
+                    <p style="color: var(--color-text-light);">
+                        Cada receta está documentada con exactitud, incluyendo todos los detalles 
+                        necesarios para reproducir los resultados.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; color: var(--color-header); margin-bottom: 0.75rem;">Organización</h3>
+                    <p style="color: var(--color-text-light);">
+                        Las recetas están estructuradas por módulos temáticos, facilitando la búsqueda 
+                        y el aprendizaje progresivo.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; color: var(--color-header); margin-bottom: 0.75rem;">Pasión</h3>
+                    <p style="color: var(--color-text-light);">
+                        Cada preparación está hecha con dedicación y amor por el arte culinario, 
+                        buscando siempre la excelencia.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.25rem; color: var(--color-header); margin-bottom: 0.75rem;">Crecimiento</h3>
+                    <p style="color: var(--color-text-light);">
+                        Este repositorio está en constante evolución, añadiendo nuevas recetas y 
+                        perfeccionando las existentes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Equipo -->
+      <div class="card" style="background: linear-gradient(135deg, var(--color-section), var(--color-button)); color: white; padding: 3rem;">
+    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+        <span style="font-size: 2rem;">👥</span>
+        <h2 style="font-size: 2rem; font-weight: 700;">Nuestro Equipo</h2>
+    </div>
+
+    <div style="max-width: 800px; margin-bottom: 2.5rem;">
+        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Nuria Meneses Veizaga - Creadora y Chef Pastelera</h3> 
+        <p style="margin-bottom: 1rem; opacity: 0.95; line-height: 1.8;">
+            Graduada en repostería profesional con especialización en panadería artesanal 
+            y alta pastelería. Cada receta de este repositorio ha sido desarrollada y 
+            perfeccionada durante su formación intensiva de 6 módulos.
+        </p>
+        <p style="opacity: 0.95; line-height: 1.8;">
+            Su filosofía: "La repostería es un arte que combina precisión técnica con 
+            creatividad, donde cada detalle cuenta para crear experiencias memorables."
+        </p>
+    </div>
+
+    <!-- Nuevo integrante -->
+    <div style="max-width: 800px;">
+        <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Jhonny Meneses Ayala - Formador y Principal Apoyo</h3>
+        <p style="margin-bottom: 1rem; opacity: 0.95; line-height: 1.8;">
+            Reconocido por su dedicación y su destacada habilidad como chef, Jhonny fue 
+            un pilar fundamental en este proyecto. Gracias a sus enseñanzas, guía constante 
+            y disciplina, se logró adquirir un conocimiento profundo tanto a nivel técnico 
+            como práctico.
+        </p>
+        <p style="opacity: 0.95; line-height: 1.8;">
+            Su papel no solo fue el de instructor, sino también un apoyo esencial para 
+            desarrollar una formación sólida y aplicada.
+        </p>
+    </div>
+</div>
+
+
+        <!-- Stats -->
+        <div class="stats-grid" style="margin-top: 2rem;">
+            <div class="card stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Módulos</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Recetas</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Probadas</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Pasión</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Torta Vino - Tentación de Nuria">
+    <title>Torta Vino - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo6.html" class="back-button">
+                ← Volver al módulo 6
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/torta-vino.jpg" 
+                     alt="Torta Vino" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 6</span>
+                        <span class="receta-meta-item">⏱️ 40 min</span>
+                        <span class="receta-meta-item">🍷 Sabor a vino</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Torta Vino (Masa y Remojo)</h1>
+                    <p class="receta-descripcion-large">
+                        Torta húmeda con un delicado sabor a vino, ideal para remojos suaves y acompañamientos elegantes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes Masa -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes de la Masa</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>270 g de harina</span></li>
+                    <li><span class="check-icon">✓</span> <span>45 g de maicena</span></li>
+                    <li><span class="check-icon">✓</span> <span>10 huevos</span></li>
+                    <li><span class="check-icon">✓</span> <span>225 g de azúcar</span></li>
+                    <li><span class="check-icon">✓</span> <span>15 g de polvo de hornear</span></li>
+                    <li><span class="check-icon">✓</span> <span>75 ml de aceite</span></li>
+                    <li><span class="check-icon">✓</span> <span>50 ml de vino</span></li>
+                </ul>
+            </div>
+
+            <!-- Ingredientes Remojo -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes del Remojo</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>Sangría en caja</span></li>
+                    <li><span class="check-icon">✓</span> <span>Azúcar al gusto</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación Masa -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación de la Masa</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span>
+                        <p>Realizar el mise en place previo.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Lavar los huevos y separar claras y yemas.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Batir las claras a punto nieve con la mitad del azúcar. Agregar el polvo de hornear y mezclar suavemente.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Batir las yemas con el resto del azúcar hasta punto letra. Incorporar el aceite en hilo y el vino.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Tamizar la harina con la maicena e integrar a la mezcla de yemas.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Agregar las claras batidas con movimientos envolventes hasta obtener mezcla homogénea.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Engrasar los moldes y colocar papel sábana. Verter la mezcla uniformemente.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Hornear a 180°C durante 30–40 minutos. Enfriar, desmoldar, retirar costras, envolver en film y refrigerar mínimo una noche.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Preparación Remojo -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación del Remojo</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span>
+                        <p>Mezclar la sangría con azúcar al gusto.</p>
+                    </li>
+                    <li><span class="step-number"></span>
+                        <p>Aplicar el remojo sobre las masas con cuidado para que queden húmedas sin exceso que dañe la textura.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo6.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

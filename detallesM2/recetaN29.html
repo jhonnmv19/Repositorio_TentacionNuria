@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizza Hawaiana - Tentación de Nuria">
+    <title>Pizza Hawaiana - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo1.html" class="back-button">
+                ← Volver al módulo 1
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/pizza-hawaiana.jpg" 
+                     alt="Pizza Hawaiana" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 1</span>
+                        <span class="receta-meta-item">⏱️ 45 min</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Pizza Hawaiana</h1>
+                    <p class="receta-descripcion-large">
+                        Masa suave, salsa casera y una mezcla dulce-salada irresistible con piña y queso mozzarella.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>500 g harina</span></li>
+                    <li><span class="check-icon">✓</span> <span>50 g azúcar</span></li>
+                    <li><span class="check-icon">✓</span> <span>5 g sal</span></li>
+                    <li><span class="check-icon">✓</span> <span>40 ml aceite de oliva</span></li>
+                    <li><span class="check-icon">✓</span> <span>30 g sémola</span></li>
+                    <li><span class="check-icon">✓</span> <span>15 g levadura</span></li>
+                </ul>
+            </div>
+
+            <!-- Decoración -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración</h2>
+
+                <ul class="decoracion-lista">
+                    <li><span class="star-icon">★</span> <span>250 g queso mozzarella</span></li>
+                    <li><span class="star-icon">★</span> <span>3 rodajas de piña (natural o en conserva)</span></li>
+                    <li><span class="star-icon">★</span> <span>6 tomates</span></li>
+                    <li><span class="star-icon">★</span> <span>2 cucharas de aceite de oliva</span></li>
+                    <li><span class="star-icon">★</span> <span>3 ramas de hoja de albahaca</span></li>
+                    <li><span class="star-icon">★</span> <span>Orégano</span></li>
+                    <li><span class="star-icon">★</span> <span>Cherry al jugo</span></li>
+                    <li><span class="star-icon">★</span> <span>1 sobre de pimienta</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Hacer el mise en place y tamizar la harina.</p></li>
+                    <li><span class="step-number"></span><p>Preparar el polish y dejar fermentar por 15 minutos.</p></li>
+                    <li><span class="step-number"></span><p>Hacer un volcán con la harina y agregar el polish fermentado, azúcar, aceite de oliva y sal al borde. Integrar el agua de a poco y amasar hasta obtener una masa suave.</p></li>
+                    <li><span class="step-number"></span><p>Colocar la masa en un bol enmantecado, cubrir y dejar fermentar hasta que duplique su tamaño.</p></li>
+                    <li><span class="step-number"></span><p>Desgasificar, dividir la masa en dos y estirar en forma circular. Colocar en una charola enmantecada, añadir salsa de tomate y hornear 7 minutos.</p></li>
+                    <li><span class="step-number"></span><p>Retirar del horno, agregar aceite de oliva, orégano, queso mozzarella, piña en trozos y cherries. Volver al horno hasta dorar.</p></li>
+                </ol>
+            </div>
+
+            <!-- Salsa de Tomate -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Salsa de Tomate</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Pelar los tomates, retirar las pepitas y licuar con un poco de agua.</p></li>
+                    <li><span class="step-number"></span><p>Llevar a cocción con aceite de oliva, pimienta, azúcar y hojas de albahaca.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo1.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

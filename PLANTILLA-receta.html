@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOMBRE RECETA - Tentación de Nuria">
+    <title>NOMBRE RECETA - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="https://images.unsplash.com/photo-1755409022211-93efd6ecae73?w=200" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Back Button - CAMBIAR EL NÚMERO DEL MÓDULO -->
+            <a href="../modulos/moduloX.html" class="back-button">
+                ← Volver al módulo X
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <!-- CAMBIAR URL DE IMAGEN -->
+                <img src="https://source.unsplash.com/800x600/?PALABRAS_CLAVE" alt="NOMBRE RECETA" class="receta-detalle-imagen">
+                
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <!-- CAMBIAR NÚMERO DE MÓDULO -->
+                        <span class="badge">Módulo X</span>
+                        <span class="receta-meta-item">⏱️ Tiempo aprox</span>
+                        <span class="receta-meta-item">👥 Porciones</span>
+                    </div>
+                    
+                    <!-- CAMBIAR NOMBRE Y DESCRIPCIÓN -->
+                    <h1 class="receta-titulo">NOMBRE DE LA RECETA</h1>
+                    <p class="receta-descripcion-large">Descripción completa de la receta</p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+                <ul class="ingredientes-lista">
+                    <!-- AGREGAR INGREDIENTES - Copiar esta línea por cada ingrediente -->
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Ingrediente 1</span>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Ingrediente 2</span>
+                    </li>
+                    <li>
+                        <span class="check-icon">✓</span>
+                        <span>Ingrediente 3</span>
+                    </li>
+                    <!-- Continuar con más ingredientes... -->
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+                <ol class="preparacion-lista">
+                    <!-- AGREGAR PASOS - Copiar esta línea por cada paso -->
+                    <li>
+                        <span class="step-number"></span>
+                        <p>Paso 1 de la preparación</p>
+                    </li>
+                    <li>
+                        <span class="step-number"></span>
+                        <p>Paso 2 de la preparación</p>
+                    </li>
+                    <li>
+                        <span class="step-number"></span>
+                        <p>Paso 3 de la preparación</p>
+                    </li>
+                    <!-- Continuar con más pasos... -->
+                </ol>
+            </div>
+
+            <!-- Decoración (OPCIONAL - Eliminar esta sección si no aplica) -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración</h2>
+                <ul class="decoracion-lista">
+                    <li>
+                        <span class="star-icon">★</span>
+                        <span>Paso de decoración 1</span>
+                    </li>
+                    <li>
+                        <span class="star-icon">★</span>
+                        <span>Paso de decoración 2</span>
+                    </li>
+                    <!-- Continuar con más pasos de decoración... -->
+                </ul>
+            </div>
+
+            <!-- Relleno (OPCIONAL - Eliminar esta sección si no aplica) -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Relleno</h2>
+                <ul class="decoracion-lista">
+                    <li>
+                        <span class="star-icon">★</span>
+                        <span>Paso de relleno 1</span>
+                    </li>
+                    <li>
+                        <span class="star-icon">★</span>
+                        <span>Paso de relleno 2</span>
+                    </li>
+                    <!-- Continuar con más pasos de relleno... -->
+                </ul>
+            </div>
+
+            <!-- Notas (OPCIONAL - Eliminar esta sección si no aplica) -->
+            <div class="nota-box">
+                <h3 class="nota-titulo">💡 Notas importantes</h3>
+                <p>Aquí puedes agregar notas especiales, consejos o advertencias sobre la receta.</p>
+            </div>
+
+            <!-- Botón Volver - CAMBIAR NÚMERO DE MÓDULO -->
+            <div class="text-center mt-4">
+                <a href="../modulos/moduloX.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
+<!-- 
+INSTRUCCIONES DE USO:
+1. Copia este archivo
+2. Guárdalo en la carpeta correcta: detallesM1/, detallesM2/, etc.
+3. Nómbralo: receta1.html, receta2.html, etc.
+4. Busca y reemplaza:
+   - "moduloX.html" por el módulo correcto (modulo1.html, modulo2.html...)
+   - "Módulo X" por el número correcto
+   - "NOMBRE RECETA" por el nombre de tu receta
+   - "PALABRAS_CLAVE" para la imagen de Unsplash
+5. Completa todos los ingredientes
+6. Completa todos los pasos de preparación
+7. Agrega decoración/relleno/notas si es necesario (o elimina esas secciones)
+8. Prueba que todos los enlaces funcionen
+
+EJEMPLOS DE PALABRAS CLAVE PARA IMÁGENES:
+- chocolate,cake
+- lemon,dessert
+- vanilla,cupcake
+- strawberry,tart
+- bread,artisan
+- croissant,pastry
+-->

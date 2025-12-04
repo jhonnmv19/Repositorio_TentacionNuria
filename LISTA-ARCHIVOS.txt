@@ -1,0 +1,363 @@
+═══════════════════════════════════════════════════════════════
+    📋 LISTA COMPLETA DE ARCHIVOS
+    Repositorio Tentación de Nuria - Versión HTML/CSS
+═══════════════════════════════════════════════════════════════
+
+✅ ARCHIVOS PRINCIPALES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 index.html
+   → Página principal con hero y presentación
+   → ESTADO: ✅ Completo y funcional
+
+📄 README.md
+   → Documentación completa del proyecto
+   → ESTADO: ✅ Completo (en español)
+
+📄 GUIA-RAPIDA.txt
+   → Guía rápida de uso (este archivo)
+   → ESTADO: ✅ Completo
+
+📄 PLANTILLA-modulo.html
+   → Plantilla para crear nuevos módulos
+   → USO: Copiar y modificar para crear módulos adicionales
+
+📄 PLANTILLA-receta.html
+   → Plantilla para crear nuevas recetas
+   → USO: Copiar y modificar para cada receta nueva
+
+
+✅ ESTILOS Y SCRIPTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 estilos/
+   └── 📄 estilo.css
+       → Todos los estilos del sitio
+       → Colores: #bc6071, #e49dab, #cca0a8, #a4202e, #fefae2
+       → Responsive: Mobile, Tablet, Desktop
+       → ESTADO: ✅ Completo
+
+📁 js/
+   └── 📄 script.js
+       → Menú móvil
+       → Navegación activa
+       → Lazy loading de imágenes
+       → ESTADO: ✅ Completo
+
+
+✅ PÁGINAS PRINCIPALES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 paginas/
+   
+   ├── 📄 menu.html
+   │   → Muestra los 6 módulos
+   │   → Cada módulo indica 35 recetas
+   │   → Links a todos los módulos
+   │   → ESTADO: ✅ Completo
+   
+   ├── 📄 contacto.html
+   │   → 3 métodos de contacto
+   │   → Botón WhatsApp (CAMBIAR NÚMERO)
+   │   → Email y teléfono
+   │   → ACCIÓN REQUERIDA: ⚠️ Actualizar número WhatsApp
+   
+   └── 📄 sobre-nosotros.html
+       → Historia del proyecto
+       → Visión y valores
+       → Información del equipo
+       → Estadísticas
+       → ESTADO: ✅ Completo
+
+
+✅ MÓDULOS (6 ARCHIVOS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 modulos/
+   
+   ├── 📄 modulo1.html
+   │   → Fundamentos de Repostería
+   │   → 2 recetas de ejemplo incluidas
+   │   → PENDIENTE: ⏳ Agregar 33 recetas más
+   
+   ├── 📄 modulo2.html
+   │   → Tartas y Pasteles
+   │   → 2 recetas de ejemplo incluidas
+   │   → PENDIENTE: ⏳ Agregar 33 recetas más
+   
+   ├── 📄 modulo3.html
+   │   → Panadería Artesanal
+   │   → 2 recetas de ejemplo incluidas
+   │   → PENDIENTE: ⏳ Agregar 33 recetas más
+   
+   ├── 📄 modulo4.html
+   │   → Alta Pastelería
+   │   → 2 recetas de ejemplo incluidas
+   │   → PENDIENTE: ⏳ Agregar 33 recetas más
+   
+   ├── 📄 modulo5.html
+   │   → Repostería Salada
+   │   → 2 recetas de ejemplo incluidas
+   │   → PENDIENTE: ⏳ Agregar 33 recetas más
+   
+   └── 📄 modulo6.html
+       → Postres de Cuchara
+       → 2 recetas de ejemplo incluidas
+       → PENDIENTE: ⏳ Agregar 33 recetas más
+
+
+✅ RECETAS DETALLADAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 detallesM1/ (Módulo 1: Fundamentos de Repostería)
+   ├── 📄 receta1.html
+   │   → Tarta de Chocolate Clásica
+   │   → Incluye: ingredientes, preparación, decoración
+   │   → ESTADO: ✅ Completo (ejemplo)
+   
+   ├── 📄 receta2.html
+   │   → Galletas de Mantequilla
+   │   → Incluye: ingredientes, preparación
+   │   → ESTADO: ✅ Completo (ejemplo)
+   
+   └── PENDIENTE: ⏳ Crear receta3.html hasta receta35.html
+       (33 recetas más)
+
+📁 detallesM2/ (Módulo 2: Tartas y Pasteles)
+   └── PENDIENTE: ⏳ Crear receta1.html hasta receta35.html
+       (35 recetas en total)
+
+📁 detallesM3/ (Módulo 3: Panadería Artesanal)
+   └── PENDIENTE: ⏳ Crear receta1.html hasta receta35.html
+       (35 recetas en total)
+
+📁 detallesM4/ (Módulo 4: Alta Pastelería)
+   └── PENDIENTE: ⏳ Crear receta1.html hasta receta35.html
+       (35 recetas en total)
+
+📁 detallesM5/ (Módulo 5: Repostería Salada)
+   └── PENDIENTE: ⏳ Crear receta1.html hasta receta35.html
+       (35 recetas en total)
+
+📁 detallesM6/ (Módulo 6: Postres de Cuchara)
+   └── PENDIENTE: ⏳ Crear receta1.html hasta receta35.html
+       (35 recetas en total)
+
+
+✅ CARPETA DE IMÁGENES (OPCIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 imagenes/
+   → Actualmente usa imágenes de Unsplash (online)
+   → OPCIONAL: ⚠️ Agregar tus propias fotos aquí
+   → Recomendado: Fotos reales de tus recetas
+   → Formato sugerido: JPG, PNG
+   → Tamaño máximo: 500KB por imagen
+   
+   Nombres sugeridos:
+   • tarta-chocolate.jpg
+   • galletas-mantequilla.jpg
+   • bizcocho-limon.jpg
+   • etc.
+
+
+═══════════════════════════════════════════════════════════════
+    📊 ESTADÍSTICAS DEL PROYECTO
+═══════════════════════════════════════════════════════════════
+
+ARCHIVOS CREADOS:           18 archivos
+ARCHIVOS POR CREAR:         ~210 archivos (recetas)
+PÁGINAS PRINCIPALES:        3 (menu, contacto, sobre-nosotros)
+MÓDULOS:                    6 módulos
+RECETAS DE EJEMPLO:         2 completas
+RECETAS TOTALES OBJETIVO:   210 recetas (35 por módulo)
+
+PROGRESO ACTUAL:
+├─ Estructura:              ✅ 100% completo
+├─ Diseño:                  ✅ 100% completo
+├─ Navegación:              ✅ 100% completo
+├─ Páginas principales:     ✅ 100% completo
+├─ Módulos:                 ✅ 100% completo (estructura)
+├─ Recetas de ejemplo:      ✅ 2 de 210 (1%)
+└─ Contenido completo:      ⏳ PENDIENTE
+
+
+═══════════════════════════════════════════════════════════════
+    ✅ LO QUE YA FUNCIONA
+═══════════════════════════════════════════════════════════════
+
+✓ Página principal (index.html)
+✓ Menú de navegación (desktop y móvil)
+✓ Vista de 6 módulos
+✓ Página de contacto (falta actualizar WhatsApp)
+✓ Página sobre nosotros
+✓ Todos los 6 módulos (con estructura)
+✓ 2 recetas completas de ejemplo
+✓ Diseño responsive (móvil, tablet, desktop)
+✓ Colores y estilos personalizados
+✓ Footer en todas las páginas
+✓ Enlaces entre páginas
+✓ Menú móvil interactivo
+
+
+═══════════════════════════════════════════════════════════════
+    ⚠️ ACCIONES REQUERIDAS
+═══════════════════════════════════════════════════════════════
+
+1. URGENTE - Actualizar WhatsApp:
+   📄 Editar: paginas/contacto.html
+   🔍 Buscar: "34XXXXXXXXX"
+   ✏️ Reemplazar con tu número real
+
+2. RECOMENDADO - Personalizar "Sobre Nosotros":
+   📄 Editar: paginas/sobre-nosotros.html
+   ✏️ Ajustar textos según tu historia
+
+3. CONTENIDO - Agregar recetas:
+   📄 Usar: PLANTILLA-receta.html
+   📁 Crear archivos en: detallesM1/, detallesM2/, etc.
+   🎯 Objetivo: 35 recetas por módulo = 210 total
+
+4. OPCIONAL - Usar imágenes propias:
+   📁 Crear carpeta: imagenes/
+   📸 Guardar fotos de tus recetas
+   ✏️ Actualizar URLs en archivos HTML
+
+
+═══════════════════════════════════════════════════════════════
+    🎯 ORDEN SUGERIDO DE TRABAJO
+═══════════════════════════════════════════════════════════════
+
+PASO 1: Configuración inicial (30 minutos)
+□ Actualizar número de WhatsApp en contacto.html
+□ Personalizar textos en sobre-nosotros.html
+□ Probar todo en el navegador
+
+PASO 2: Primera receta (1 hora)
+□ Copiar PLANTILLA-receta.html
+□ Guardar como detallesM1/receta3.html
+□ Completar con una receta real
+□ Agregar la tarjeta en modulo1.html
+□ Probar que funcione
+
+PASO 3: Completar Módulo 1 (2-3 semanas)
+□ Crear receta4.html hasta receta35.html
+□ Agregar todas las tarjetas en modulo1.html
+□ Usar tus fotos reales
+
+PASO 4: Repetir para Módulos 2-6
+□ Módulo 2: Tartas y Pasteles
+□ Módulo 3: Panadería Artesanal
+□ Módulo 4: Alta Pastelería
+□ Módulo 5: Repostería Salada
+□ Módulo 6: Postres de Cuchara
+
+PASO 5: Publicar (1 hora)
+□ Revisar todo
+□ Subir a GitHub Pages / Netlify / Vercel
+□ Compartir con familia y amigos
+
+
+═══════════════════════════════════════════════════════════════
+    💾 ESTRUCTURA DE CARPETAS ACTUAL
+═══════════════════════════════════════════════════════════════
+
+html-version/
+│
+├── 📄 index.html                    ✅
+├── 📄 README.md                     ✅
+├── 📄 GUIA-RAPIDA.txt               ✅
+├── 📄 LISTA-ARCHIVOS.txt            ✅ (este archivo)
+├── 📄 PLANTILLA-modulo.html         ✅
+├── 📄 PLANTILLA-receta.html         ✅
+│
+├── 📁 estilos/
+│   └── 📄 estilo.css                ✅
+│
+├── 📁 js/
+│   └── 📄 script.js                 ✅
+│
+├── 📁 paginas/
+│   ├── 📄 menu.html                 ✅
+│   ├── 📄 contacto.html             ⚠️ (actualizar WhatsApp)
+│   └── 📄 sobre-nosotros.html       ✅
+│
+├── 📁 modulos/
+│   ├── 📄 modulo1.html              ✅
+│   ├── 📄 modulo2.html              ✅
+│   ├── 📄 modulo3.html              ✅
+│   ├── 📄 modulo4.html              ✅
+│   ├── 📄 modulo5.html              ✅
+│   └── 📄 modulo6.html              ✅
+│
+├── 📁 detallesM1/
+│   ├── 📄 receta1.html              ✅
+│   ├── 📄 receta2.html              ✅
+│   └── (receta3-35)                 ⏳ PENDIENTE
+│
+├── 📁 detallesM2/
+│   └── (receta1-35)                 ⏳ PENDIENTE
+│
+├── 📁 detallesM3/
+│   └── (receta1-35)                 ⏳ PENDIENTE
+│
+├── 📁 detallesM4/
+│   └── (receta1-35)                 ⏳ PENDIENTE
+│
+├── 📁 detallesM5/
+│   └── (receta1-35)                 ⏳ PENDIENTE
+│
+├── 📁 detallesM6/
+│   └── (receta1-35)                 ⏳ PENDIENTE
+│
+└── 📁 imagenes/ (opcional)
+    └── (tus fotos)                  ⏳ OPCIONAL
+
+
+═══════════════════════════════════════════════════════════════
+    🔗 ENLACES Y NAVEGACIÓN
+═══════════════════════════════════════════════════════════════
+
+DESDE index.html:
+→ paginas/menu.html
+→ paginas/contacto.html
+→ paginas/sobre-nosotros.html
+
+DESDE menu.html:
+→ modulos/modulo1.html
+→ modulos/modulo2.html
+→ modulos/modulo3.html
+→ modulos/modulo4.html
+→ modulos/modulo5.html
+→ modulos/modulo6.html
+
+DESDE moduloX.html:
+→ detallesMX/receta1.html
+→ detallesMX/receta2.html
+→ etc.
+
+DESDE recetaX.html:
+→ Volver a moduloX.html
+
+
+═══════════════════════════════════════════════════════════════
+    📝 NOTAS FINALES
+═══════════════════════════════════════════════════════════════
+
+• Todos los archivos están interconectados correctamente
+• El diseño es responsive y funciona en todos los dispositivos
+• Los colores siguen tu paleta original (#bc6071, etc.)
+• Las plantillas facilitan agregar nuevas recetas
+• El código es limpio y fácil de entender
+• No necesitas conocimientos de programación para usarlo
+
+¿NECESITAS AYUDA?
+→ Lee README.md para información detallada
+→ Consulta GUIA-RAPIDA.txt para instrucciones paso a paso
+→ Usa las plantillas para crear nuevo contenido
+
+¡Tu repositorio está listo para empezar a crecer! 🎂✨
+
+═══════════════════════════════════════════════════════════════
+    Repositorio Tentación de Nuria — 2025
+═══════════════════════════════════════════════════════════════

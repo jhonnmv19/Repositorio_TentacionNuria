@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crepas - Tentación de Nuria">
+    <title>Crepas - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo1.html" class="back-button">
+                ← Volver al módulo 1
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/crepas.jpg" 
+                     alt="Crepas" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 1</span>
+                        <span class="receta-meta-item">⏱️ 30 min</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Crepas</h1>
+                    <p class="receta-descripcion-large">
+                        Delicadas crepas rellenas con crema chantilly, frutas frescas y chocolate semi amargo.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>2 huevos</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 taza de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 taza de harina</span></li>
+                    <li><span class="check-icon">✓</span> <span>30 gr de mantequilla sin sal</span></li>
+                    <li><span class="check-icon">✓</span> <span>Pizca de sal</span></li>
+                    <li><span class="check-icon">✓</span> <span>150 ml de crema de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>3 cucharadas de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>Frutillas c/n</span></li>
+                    <li><span class="check-icon">✓</span> <span>Azúcar impalpable c/n</span></li>
+                    <li><span class="check-icon">✓</span> <span>25 gr de chocolate semi amargo</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Realizamos mise en place.</p></li>
+                    <li><span class="step-number"></span><p>Ponemos a la licuadora los huevos, mantequilla, azúcar, leche, sal y harina.</p></li>
+                    <li><span class="step-number"></span><p>Licuar todo y dejar reposar por 10 minutos.</p></li>
+                    <li><span class="step-number"></span><p>Picamos las frutas en brunoise.</p></li>
+                    <li><span class="step-number"></span><p>Batimos la crema de leche hasta punto chantilly.</p></li>
+                    <li><span class="step-number"></span><p>Derretimos el chocolate.</p></li>
+                    <li><span class="step-number"></span><p>En un sartén caliente con un poco de mantequilla, vertemos un poco de la masa formando una capa muy delgada y sellamos.</p></li>
+                    <li><span class="step-number"></span><p>Reservamos las crepas cocidas.</p></li>
+                </ol>
+            </div>
+
+            <!-- Armado -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Armado</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>En medio de la crepa ponemos la crema chantilly.</p></li>
+                    <li><span class="step-number"></span><p>Agregamos la fruta picada.</p></li>
+                    <li><span class="step-number"></span><p>Cerramos con la misma crepa.</p></li>
+                    <li><span class="step-number"></span><p>Cubrimos con una capa de chocolate en forma de hilo.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo1.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

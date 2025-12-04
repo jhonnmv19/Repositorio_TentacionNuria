@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Queque Marmolado - Tentación de Nuria">
+    <title>Queque Marmolado - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo1.html" class="back-button">
+                ← Volver al módulo 1
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/queque-marmolado.jpg" 
+                     alt="Queque Marmolado" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 1</span>
+                        <span class="receta-meta-item">⏱️ 30 min</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Queque Marmolado</h1>
+                    <p class="receta-descripcion-large">
+                        Queque suave y esponjoso, con un efecto marmolado clásico y delicioso.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>5 huevos (separar claras y yemas)</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 taza de azúcar</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de aceite</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ taza de leche</span></li>
+                    <li><span class="check-icon">✓</span> <span>Esencia a elección (vainilla recomendada)</span></li>
+                    <li><span class="check-icon">✓</span> <span>Harina (cantidad según receta base)</span></li>
+                    <li><span class="check-icon">✓</span> <span>Polvo de hornear</span></li>
+                    <li><span class="check-icon">✓</span> <span>Cacao en polvo (para el efecto marmolado)</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Preparar el mise en place.</p></li>
+                    <li><span class="step-number"></span><p>Separar las claras y las yemas. Batir las claras con la mitad del azúcar hasta llegar a punto nieve y las yemas con la otra mitad del azúcar.</p></li>
+                    <li><span class="step-number"></span><p>Añadir el aceite en forma de hilo, la leche y la esencia. Batir hasta obtener punto letra.</p></li>
+                    <li><span class="step-number"></span><p>Mezclar todos los ingredientes secos en un bol.</p></li>
+                    <li><span class="step-number"></span><p>Incorporar las yemas a las claras y añadir la mezcla poco a poco al bol con los ingredientes secos.</p></li>
+                    <li><span class="step-number"></span><p>Mezclar en forma envolvente hasta obtener una masa homogénea.</p></li>
+                    <li><span class="step-number"></span><p>Separar una parte de la masa y añadir cacao en polvo para crear el efecto marmolado.</p></li>
+                    <li><span class="step-number"></span><p>Verter ambas mezclas alternando capas y formar el marmolado con una espátula.</p></li>
+                    <li><span class="step-number"></span><p>Hornear por 30 minutos a 180 °C.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo1.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

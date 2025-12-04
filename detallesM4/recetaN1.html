@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bolitas de Queso - Tentación de Nuria">
+    <title>Bolitas de Queso - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo4.html" class="back-button">
+                ← Volver al módulo 4
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/bolitas-de-queso.jpg" 
+                     alt="Bolitas de Queso" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 4</span>
+                        <span class="receta-meta-item">⏱️ 25 min</span>
+                        <span class="receta-meta-item">👥 Para compartir</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Bolitas de Queso</h1>
+                    <p class="receta-descripcion-large">
+                        Deliciosas bolitas de queso fritas acompañadas de salsa golf.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>3 tazas de queso rallado grande</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 taza de harina</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cucharada de ají rojo en polvo</span></li>
+                    <li><span class="check-icon">✓</span> <span>½ cucharilla de polvo de hornear</span></li>
+                    <li><span class="check-icon">✓</span> <span>3 huevos</span></li>
+                    <li><span class="check-icon">✓</span> <span>c/n de aceite para freír</span></li>
+                </ul>
+            </div>
+
+            <!-- Aderezo -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Aderezo (Salsa Golf)</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>Cucharas de mayonesa</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cuchara de kétchup</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cucharada de mostaza</span></li>
+                    <li><span class="check-icon">✓</span> <span>Jugo de 1 limón</span></li>
+                    <li><span class="check-icon">✓</span> <span>Mondadientes (para servir)</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Preparar el mise en place, tamizar la harina y alistar todos los ingredientes.</p></li>
+                    <li><span class="step-number"></span><p>En un bol, mezclar el queso, harina, polvo de hornear y ají en polvo.</p></li>
+                    <li><span class="step-number"></span><p>Agregar los huevos y compactar la masa; formar bolitas de 12-13 g cada una.</p></li>
+                    <li><span class="step-number"></span><p>Calentar el aceite a 180 °C y freír las bolitas hasta que estén doradas.</p></li>
+                    <li><span class="step-number"></span><p>Preparar la salsa golf mezclando mayonesa, kétchup, mostaza y jugo de limón.</p></li>
+                    <li><span class="step-number"></span><p>Servir las bolitas con mondadientes acompañadas de la salsa golf.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo4.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

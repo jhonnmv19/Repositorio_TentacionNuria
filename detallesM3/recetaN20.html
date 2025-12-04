@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../imagenes/logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flan Casero - Tentación de Nuria">
+    <title>Flan Casero - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="../imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+
+            <!-- Back Button -->
+            <a href="../modulos/modulo1.html" class="back-button">
+                ← Volver al módulo 1
+            </a>
+
+            <!-- Receta Header -->
+            <div class="receta-detalle-header">
+                <img src="../imagenes/flan-casero.jpg" 
+                     alt="Flan Casero" 
+                     class="receta-detalle-imagen">
+
+                <div class="card" style="padding: 2rem;">
+                    <div class="receta-meta">
+                        <span class="badge">Módulo 1</span>
+                        <span class="receta-meta-item">⏱️ 2 h 30 min</span>
+                        <span class="receta-meta-item">👥 20 porciones</span>
+                    </div>
+
+                    <h1 class="receta-titulo">Flan Casero</h1>
+                    <p class="receta-descripcion-large">
+                        Delicioso flan casero, cremoso y suave, ideal para postres grandes y decoración con frutas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Ingredientes -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Ingredientes</h2>
+
+                <ul class="ingredientes-lista">
+                    <li><span class="check-icon">✓</span> <span>1 taza de azúcar</span></li>
+                    <li><span class="check-icon">✓</span> <span>4 huevos</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 cucharada de esencia de vainilla</span></li>
+                    <li><span class="check-icon">✓</span> <span>Papel estañado o aluminio</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 lata de leche evaporada</span></li>
+                    <li><span class="check-icon">✓</span> <span>1 lata de leche condensada</span></li>
+                </ul>
+            </div>
+
+            <!-- Decoración -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Decoración</h2>
+
+                <ul class="decoracion-lista">
+                    <li><span class="star-icon">★</span> <span>Duraznos en lata</span></li>
+                    <li><span class="star-icon">★</span> <span>Fresas (4 unidades)</span></li>
+                    <li><span class="star-icon">★</span> <span>Jalea roja</span></li>
+                    <li><span class="star-icon">★</span> <span>Base de torta para 20 personas</span></li>
+                </ul>
+            </div>
+
+            <!-- Preparación -->
+            <div class="receta-seccion">
+                <h2 class="seccion-titulo">Preparación</h2>
+
+                <ol class="preparacion-lista">
+                    <li><span class="step-number"></span><p>Realizar el mise en place.</p></li>
+                    <li><span class="step-number"></span><p>Llevar al fuego una olla con azúcar y agua hasta obtener color caramelo.</p></li>
+                    <li><span class="step-number"></span><p>Licuamos los huevos con la esencia de vainilla hasta obtener consistencia cremosa.</p></li>
+                    <li><span class="step-number"></span><p>En un molde, vaciar el caramelo y esparcirlo bien.</p></li>
+                    <li><span class="step-number"></span><p>Verter la mezcla de huevos en el molde y tapar con papel estañado.</p></li>
+                    <li><span class="step-number"></span><p>Llevar al horno en baño maría a 180 °C por 2 horas.</p></li>
+                    <li><span class="step-number"></span><p>Dejar enfriar y llevar a refrigerar antes de decorar.</p></li>
+                </ol>
+            </div>
+
+            <!-- Botón Volver -->
+            <div class="text-center mt-4">
+                <a href="../modulos/modulo1.html" class="btn btn-secondary">Volver al módulo</a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

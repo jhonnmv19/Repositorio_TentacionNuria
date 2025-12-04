@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Módulo X: NOMBRE DEL MÓDULO">
+    <title>Módulo X - Tentación de Nuria</title>
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="../index.html" class="logo-section">
+                <img src="https://images.unsplash.com/photo-1755409022211-93efd6ecae73?w=200" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <nav>
+                <a href="../index.html">Inicio</a>
+                <a href="../paginas/menu.html">Módulos</a>
+                <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="../paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
+        </div>
+
+        <div class="mobile-nav">
+            <a href="../index.html">Inicio</a>
+            <a href="../paginas/menu.html">Módulos</a>
+            <a href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="../paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Back Button -->
+        <a href="../paginas/menu.html" class="back-button">
+            ← Volver a módulos
+        </a>
+
+        <!-- Module Header - CAMBIAR gradient-X según el módulo -->
+        <div class="module-header gradient-1">
+            <p class="module-label">Módulo X</p>
+            <h1 class="module-title">NOMBRE DEL MÓDULO</h1>
+            <p class="module-description">Descripción del módulo</p>
+            <p style="color: var(--color-text-light);">35 recetas disponibles</p>
+        </div>
+
+        <!-- Recetas Grid -->
+        <div class="recetas-grid">
+            
+            <!-- PLANTILLA DE RECETA - COPIAR Y PEGAR PARA CADA RECETA -->
+            <a href="../detallesMX/receta1.html" class="receta-card">
+                <div class="card">
+                    <img src="https://source.unsplash.com/400x300/?PALABRAS_CLAVE" alt="Nombre Receta" class="receta-imagen">
+                    <div class="receta-contenido">
+                        <h3 class="receta-nombre">Nombre de la Receta</h3>
+                        <p class="receta-descripcion">Descripción breve de la receta</p>
+                        <span class="btn btn-secondary">Ver más</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- RECETA 2 -->
+            <a href="../detallesMX/receta2.html" class="receta-card">
+                <div class="card">
+                    <img src="https://source.unsplash.com/400x300/?PALABRAS_CLAVE" alt="Nombre Receta" class="receta-imagen">
+                    <div class="receta-contenido">
+                        <h3 class="receta-nombre">Nombre de la Receta</h3>
+                        <p class="receta-descripcion">Descripción breve de la receta</p>
+                        <span class="btn btn-secondary">Ver más</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Continuar con más recetas hasta 35... -->
+
+        </div>
+
+        <!-- Note -->
+        <div class="nota-box">
+            <p>💡 <strong>Consejo:</strong> Cada receta incluye ingredientes detallados, 
+            instrucciones paso a paso y notas especiales para ayudarte a lograr los mejores resultados.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
+<!-- 
+INSTRUCCIONES DE USO:
+1. Copia este archivo
+2. Renómbralo: modulo3.html, modulo4.html, etc.
+3. Reemplaza:
+   - "Módulo X" por el número correcto
+   - "NOMBRE DEL MÓDULO" por el nombre real
+   - "gradient-1" por gradient-2, gradient-3, etc.
+   - "detallesMX" por detallesM3, detallesM4, etc.
+4. Agrega todas las recetas del módulo
+5. Actualiza las imágenes y descripciones
+-->
