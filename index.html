@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Font Awesome CDN sin integrity -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="icon" href="../imagenes/logo.png" type="image/png">
+
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Repositorio Tentación de Nuria - Colección de recetas culinarias organizadas por módulos">
+    <title>Tentación de Nuria - Inicio</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-section">
+                <img src="imagenes/logo.png" alt="Tentación de Nuria Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Tentación de Nuria</h1>
+                    <p>Repositorio de Recetas</p>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="paginas/menu.html">Módulos</a>
+                <a href="paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="paginas/contacto.html">Contacto</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menú">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <a href="index.html">Inicio</a>
+            <a href="paginas/menu.html">Módulos</a>
+            <a href="paginas/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-icon">❤️</div>
+            <h1>Bienvenido al Repositorio</h1>
+            <h2>Tentación de Nuria</h2>
+            <p>Tu colección personal de recetas culinarias organizadas por módulos de formación. Explora, aprende y disfruta de cada creación.</p>
+            <a href="paginas/menu.html" class="btn btn-primary">Explorar Módulos</a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon feature-icon-1">📖</div>
+                <h3 class="feature-titulo">6 Módulos Completos</h3>
+                <p>Más de 200 recetas organizadas en 6 módulos de formación culinaria profesional.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon feature-icon-2">👨‍🍳</div>
+                <h3 class="feature-titulo">Técnicas Variadas</h3>
+                <p>Desde fundamentos básicos hasta alta pastelería y panadería artesanal.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon feature-icon-3">❤️</div>
+                <h3 class="feature-titulo">Hecho con Amor</h3>
+                <p>Cada receta ha sido probada, perfeccionada y documentada con dedicación.</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="card" style="background: linear-gradient(135deg, var(--color-section), var(--color-button)); color: white; padding: 3rem; text-align: center; margin: 3rem 0;">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">¿Lista para empezar?</h2>
+            <p style="font-size: 1.125rem; margin-bottom: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Explora nuestro repositorio completo de recetas y descubre nuevas técnicas culinarias.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="paginas/menu.html" class="btn btn-primary">Ver todos los módulos</a>
+                <a href="paginas/sobre-nosotros.html" class="btn" style="background-color: var(--color-header); color: white;">Conocer más</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Repositorio Tentación de Nuria — 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
