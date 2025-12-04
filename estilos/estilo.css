@@ -634,7 +634,7 @@ main {
 
 .module-label {
   font-size: 1.125rem;
-  color: var(--color-text-light);
+ color: #5f0500;
   margin-bottom: 0.5rem;
 }
 
